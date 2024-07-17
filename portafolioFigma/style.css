@@ -67,15 +67,28 @@ body {
     font-weight: 400;
 }
 
-.presentacion__enlaces__link{
+.presentacion__enlaces__link {
     width: 378px;
     text-align: center;
     padding: 21.5px 0;
-    border-radius: 8%;
+    border-radius: 10%;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
     color: mediumvioletred;
-    border: 2px solid mediumvioletred;
+    border: 3px solid #b13c86a1;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.presentacion__enlaces__link:hover {
+    cursor: pointer;
+    background-color: #b13c86a1;
+}
+
+.parent-div {
+   width: 30px;
+   height: 30px;
 }
