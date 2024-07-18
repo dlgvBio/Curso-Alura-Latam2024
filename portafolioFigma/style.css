@@ -6,7 +6,6 @@
 }
 
 body {
-    height: 100vh;
     background-color: #132043;
     background-image: linear-gradient(to left top, #845ec2, hsl(263, 44%, 59%), #9775c8,
             #9f80ca, #a88ccd, #9992d2, #8a98d4, #7d9dd4, #4a9dcb, #009bb8, #00969c,
@@ -91,4 +90,19 @@ body {
 .parent-div {
    width: 30px;
    height: 30px;
+}
+
+. header {
+    
+}
+
+.footer {
+    background-color: #132043;
+    padding: 24px;
+    color: #b13c86a1;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
 }
