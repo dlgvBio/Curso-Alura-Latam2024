@@ -5,6 +5,23 @@
     margin: 0;
 }
 
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #b13c86a1;
+    text-decoration: none;
+}
+
 body {
     background-color: #132043;
     background-image: linear-gradient(to left top, #845ec2, hsl(263, 44%, 59%), #9775c8,
@@ -17,7 +34,7 @@ body {
 .presentacion {
     display: flex;
     align-items: center;
-    margin: 10% 10%;
+    margin: 5% 15%;
     justify-content: space-between;
 }
 
@@ -92,9 +109,6 @@ body {
    height: 30px;
 }
 
-. header {
-    
-}
 
 .footer {
     background-color: #132043;
