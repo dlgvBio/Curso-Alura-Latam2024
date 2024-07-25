@@ -137,3 +137,22 @@ body {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width:1200px){
+
+    .header{
+        padding: 10%;
+    }
+
+    .header__menu{
+        justify-content: center;
+    }
+
+    .presentacion {
+        flex-direction: column-reverse;
+    }
+
+    .presentacion__contenido{
+        width: auto;
+    }
+}
